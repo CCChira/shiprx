@@ -1,0 +1,46 @@
+# IDE
+/client/.vscode
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vue/Node specific
+/client/node_modules
+/client/dist
+/client/dist-ssr
+/client/.env
+/client/.env.*
+!/client/.env.example
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+/client/logs
+/client/*.log
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/pnpm-debug.log*
+
+# Cache
+/client/.cache
+/client/.temp
+/client/.sass-cache
+/client/.nuxt
+/client/.nitro
+/client/.output
+/client/.vuepress/cache
+/client/.vite
+
+# Testing
+/client/coverage
+
+# Local files
+*.local
